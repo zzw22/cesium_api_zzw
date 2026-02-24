@@ -29,6 +29,9 @@ export default defineConfig({
   },
   resolve: {
     dedupe: ['vue'],
+    alias: {
+      '@': resolve(__dirname, 'src'),
+    },
   },
   optimizeDeps: {
     include: [...externals],

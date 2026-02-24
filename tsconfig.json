@@ -10,6 +10,7 @@
     "baseUrl": "./",
     "paths": {
       "@@/*": [".dumi/tmp/*"],
+      "@/*": ["src/*"],
       "dumi_template": ["src"],
       "dumi_template/*": ["src/*", "*"]
     }

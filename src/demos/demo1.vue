@@ -11,7 +11,7 @@
 
 <script setup>
 import { ref, onMounted } from 'vue';
-import cesiumAPI from '../api';
+import cesiumAPI from '@/api';
 const cesiumViewer = ref(null);
 const token =
   'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiI3ZTM4NTEwNS03YmYwLTRlOGItOTA2MC0wMjk4MGI4OWI1MDciLCJpZCI6MzkwODM2LCJpYXQiOjE3NzExNzA5NjV9.EwpUC3JKxRoLHEC-a0lijqzrvzs_b49qM9tIFMivrUQ';
